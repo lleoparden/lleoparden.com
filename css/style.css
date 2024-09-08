@@ -8911,13 +8911,14 @@ h1, h2, h3, h4, h5,
     -ms-border-radius: 2px;
     border-radius: 2px;
     opacity: 0; }
-  .progress-bar span {
-    position: absolute;
-    top: -38px;
-    right: 0;
-    font-size: 20px;
-    font-weight: 400;
-    color: #fff; }
+    .progress-bar span {
+      position: fixed;
+      top: 8px;
+      right: 2px;
+      font-size: 20px;
+      font-weight: 400;
+      color:#ffbd39;
+      }
 
 .ftco-hireme {
   background: #ffbd39;
@@ -8992,13 +8993,16 @@ h1, h2, h3, h4, h5,
     .project .text h3 {
       font-size: 20px; }
       .project .text h3 a {
-        color: #fff; }
+        color: #fff; 
+      font-size: 20px;
+      font-weight: 500;
+      }
     .project .text span {
       color: rgba(255, 255, 255, 0.8);
       text-transform: uppercase;
       letter-spacing: 2px;
-      font-size: 12px;
-      font-weight: 600; }
+      font-size: 16px;
+      font-weight: 650; }
     @media (max-width: 767.98px) {
       .project .text {
         opacity: 1; }
@@ -9197,6 +9201,14 @@ textarea.form-control {
     color: rgba(255, 255, 255, 0.1);
     z-index: -1;
     font-weight: 900; }
+    .heading-section h2.big {
+      position: absolute;
+      top: 0px;
+      left: 0;
+      font-size: 5vw;
+      color: rgba(255, 255, 255, 0.1);
+      z-index: -1;
+      font-weight: 900; }
     .heading-section h1.big.big-2 {
       right: 0; }
   .heading-section h2 {
